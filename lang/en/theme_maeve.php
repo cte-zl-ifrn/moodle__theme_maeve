@@ -1,5 +1,5 @@
 <?php
-// This file is part of Moodle - https://moodle.org/
+// This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -12,23 +12,18 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Plugin version and other meta-data are defined here.
+ * Language file.
  *
- * @package     theme_maeve
- * @copyright   2023 Kelson Medeiros <kelsoncm@gmail.com>
- * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   theme_moove
+ * @copyright 2017 Willian Mano - http://conecti.me
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'theme_maeve';
-$plugin->release = '0.1.003';
-$plugin->version = 20232201005;
-$plugin->maturity = MATURITY_STABLE;
-$plugin->requires = 2022112800;
-$plugin->dependencies = [
-    'theme_moove' => 2022112801
-];
+$string['pluginname'] = 'Maeve';
+$string['configtitle'] = 'Maeve';
+$string['choosereadme'] = 'Maeve is a modern highly-customisable theme. This theme is intended to be used directly, or as a parent theme when creating new themes utilising Bootstrap 4.';
